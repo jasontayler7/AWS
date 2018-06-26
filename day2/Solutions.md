@@ -56,7 +56,7 @@ SOLUTIONS
 
 - Private Route Table are being created for each Private Subnet
 
-![Route Tables](https://github.com/lovedeepsh/AWS/blob/master/AWS-day2-images/Opstree-Route.png)
+![Route Tables](https://github.com/lovedeepsh/AWS/blob/master/AWS-day2-images/Route-Table-4.png)
 
 4. Created a Internet Gateway :-
 
