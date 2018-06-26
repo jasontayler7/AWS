@@ -42,13 +42,19 @@ SOLUTIONS
 
 ![Subnets](https://github.com/lovedeepsh/AWS/blob/master/AWS-day2-images/Opstree-Subnets-6.png)
 
-3. Created 6 Route Table by :-
+3. Created 4 Route Table by :-
 
 - Click on VPC
 
 - Click on Route Tables below Subnets
 
 - Created Route tables and assigned to each Subnet
+
+- Public Route Table attached to both Public Subnets
+
+- Protected Route Table attached to both Protected Subnets
+
+- Private Route Table are being created for each Private Subnet
 
 ![Route Tables](https://github.com/lovedeepsh/AWS/blob/master/AWS-day2-images/Opstree-Route.png)
 
