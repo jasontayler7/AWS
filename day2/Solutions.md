@@ -60,5 +60,5 @@ SOLUTIONS
 
 - Created a Internet Gateway and assigned it to newly created VPC.
 
-![Internet Gateway]()
+![Internet Gateway](https://github.com/lovedeepsh/AWS/blob/master/AWS-day2-images/Opstree-igw-second.png)
 
