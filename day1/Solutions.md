@@ -8,17 +8,15 @@ SOLUTION
 
 Lovedeep-Opstree
 
-![Lovedeep VPC](https://github.com/lovedeepsh/AWS/blob/master/AWS-day1-images/Lovedeep-Opstree.png)
+![Lovedeep VPC](https://github.com/lovedeepsh/AWS/blob/master/AWS-day1-images/VPC.png)
 
 - Created One Public Subnet and One Private Subnet named :-
 
 Lovedeep-Opstree-Public
 
-![Lovedeep Public Subnet](https://github.com/lovedeepsh/AWS/blob/master/AWS-day1-images/Lovedeep-Opstree-Public.png)
-
 Lovedeep-Opstree-Private
 
-![Lovedeep Private Subnet](https://github.com/lovedeepsh/AWS/blob/master/AWS-day1-images/Lovedeep-Opstree-Private.png)
+![Lovedeep Subnet](https://github.com/lovedeepsh/AWS/blob/master/AWS-day1-images/Subnets.png)
 
 
 
@@ -39,4 +37,4 @@ SOLUTION
 Lovedeep-Instance-Linux-Private
 Lovedeep-Instance-Windows-Public
 
-![Lovedeep Instances](https://github.com/lovedeepsh/AWS/blob/master/AWS-day1-images/Lovedeep-Opstree-Instances.png)
+![Lovedeep Instances](https://github.com/lovedeepsh/AWS/blob/master/AWS-day1-images/Instances.png)
