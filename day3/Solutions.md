@@ -11,7 +11,7 @@ SOLUTION
 - Created ssh connection to the Instance using Private-key.pem
 - Changed the name /etc/sudoers to /etc/sudoers.bkp
 
-![Error]()
+![Error](https://github.com/lovedeepsh/AWS/blob/master/AWS-day3-images/error123.png)
 
 - I was not able to login then i followed this document : https://superuser.com/questions/1087048/how-to-fix-broken-etc-sudoers-ownership-on-ec2
 
@@ -24,7 +24,7 @@ SOLUTION
 - Now again attached that volume to the main Instance.
 - Now i was able to login.
 
-![Access]()
+![Access](https://github.com/lovedeepsh/AWS/blob/master/AWS-day3-images/ubuntu-publicA.png)
 
 
 
@@ -42,7 +42,9 @@ SOLUTION
 - Created an ansible role for nginx and pushed it into github
 - Role was hosting nginx webpage saying "Hi i am ninja and my name is {yourname}"
 
-![Nginx Role]()
+Nginx Role
+
+https://github.com/lovedeepsh/AWS/tree/master/day3/nginx
 
 - First prepared a script and tried it into vagrant
 
@@ -62,7 +64,7 @@ sudo ansible-playbook main.yml
 - Now Created a new Instance and provided the script from the starting page of creation in Advance section
 - Finally it was working properly
 
-![Nginx Output]()
+![Nginx Output](https://github.com/lovedeepsh/AWS/blob/master/AWS-day3-images/output-nginx.png)
 
 
 Assignment 3
@@ -96,10 +98,10 @@ fi
 }
 ```
 
-![DSL]()
+![DSL](https://github.com/lovedeepsh/AWS/blob/master/AWS-day3-images/dsl.png)
 
-![Ninja:Lovedeep_Sharma]()
+![Ninja:Lovedeep_Sharma](https://github.com/lovedeepsh/AWS/blob/master/AWS-day3-images/Ninja:Lovedeep_Sharma.png)
 
-![Start Instance]()
+![Start Instance](https://github.com/lovedeepsh/AWS/blob/master/AWS-day3-images/start-instance.png)
 
-![Stop Instance]()
+![Stop Instance](https://github.com/lovedeepsh/AWS/blob/master/AWS-day3-images/stop-Instance.png)
