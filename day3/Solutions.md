@@ -104,6 +104,8 @@ fi
 }
 ```
 
+![IAM](https://github.com/lovedeepsh/AWS/blob/master/AWS-day3-images/IAM.png)
+
 ![DSL](https://github.com/lovedeepsh/AWS/blob/master/AWS-day3-images/dsl.png)
 
 ![Ninja:Lovedeep_Sharma](https://github.com/lovedeepsh/AWS/blob/master/AWS-day3-images/Ninja:Lovedeep_Sharma.png)
