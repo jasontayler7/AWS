@@ -53,13 +53,10 @@ SOLUTION
       state: present
 ...
 ```
+![Playbook Run](https://github.com/lovedeepsh/AWS/blob/master/AWS-day5-images/Playbook-Run.png)
 
-![Playbook YML]()
+![Key Pair](https://github.com/lovedeepsh/AWS/blob/master/AWS-day5-images/Key-Pair.png)
 
-![Playbook Run]()
+![Security Group](https://github.com/lovedeepsh/AWS/blob/master/AWS-day5-images/Security-Group.png)
 
-![IAM Role]()
-
-![Security Group]()
-
-![Instance]()
+![Instance](https://github.com/lovedeepsh/AWS/blob/master/AWS-day5-images/love-Instance.png)
