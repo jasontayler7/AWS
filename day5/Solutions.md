@@ -53,6 +53,19 @@ SOLUTION
       state: present
 ...
 ```
+For IAM User
+```
+- name: "Creating an IAM User"
+  iam:
+   iam_type: user
+   name: Anshul
+   state: present
+   groups: lovedeep
+   password: 123
+   access_key_state: create
+```
+   
+   
 ![Playbook Run](https://github.com/lovedeepsh/AWS/blob/master/AWS-day5-images/Playbook-Run.png)
 
 ![Key Pair](https://github.com/lovedeepsh/AWS/blob/master/AWS-day5-images/Key-Pair.png)
