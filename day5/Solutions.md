@@ -73,7 +73,7 @@ For IAM User
 
 ![Key Pair](https://github.com/lovedeepsh/AWS/blob/master/AWS-day5-images/Key-Pair.png)
 
-- Created Key Pair
+- Created Security Group
 
 ![Security Group](https://github.com/lovedeepsh/AWS/blob/master/AWS-day5-images/Security-Group.png)
 
