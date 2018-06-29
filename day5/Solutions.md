@@ -65,13 +65,22 @@ For IAM User
    access_key_state: create
 ```
    
-   
+- Running Playbook
+ 
 ![Playbook Run](https://github.com/lovedeepsh/AWS/blob/master/AWS-day5-images/Playbook-Run.png)
+
+- Created Key Pair
 
 ![Key Pair](https://github.com/lovedeepsh/AWS/blob/master/AWS-day5-images/Key-Pair.png)
 
+- Created Key Pair
+
 ![Security Group](https://github.com/lovedeepsh/AWS/blob/master/AWS-day5-images/Security-Group.png)
 
+- Created Instance
+
 ![Instance](https://github.com/lovedeepsh/AWS/blob/master/AWS-day5-images/love-Instance.png)
+
+- Created IAM User
 
 ![IAM User](https://github.com/lovedeepsh/AWS/blob/master/AWS-day5-images/IAM.png)
