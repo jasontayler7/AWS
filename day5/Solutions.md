@@ -73,3 +73,5 @@ For IAM User
 ![Security Group](https://github.com/lovedeepsh/AWS/blob/master/AWS-day5-images/Security-Group.png)
 
 ![Instance](https://github.com/lovedeepsh/AWS/blob/master/AWS-day5-images/love-Instance.png)
+
+![IAM User](https://github.com/lovedeepsh/AWS/blob/master/AWS-day5-images/IAM.png)
