@@ -10,23 +10,28 @@ SOLUTION
 
 - Created a Domain on Freenom www.lovedeep-opstree.tk
 
-![Freenom-Domain]()
+![Freenom-Domain](https://github.com/lovedeepsh/AWS/blob/master/AWS-day6-images/lovedeep-opstree-tk.png)
 
 - Created an Alias
 
-![Alias]()
+![Alias](https://github.com/lovedeepsh/AWS/blob/master/AWS-day6-images/alias.png)
 
 - Created two S3 buckets
 
-![S3  buckets]()
+![S3  buckets](https://github.com/lovedeepsh/AWS/blob/master/AWS-day6-images/buckets.png)
 
 - Inserted index.html in lovedeep-opstree.tk
 
-![Index Bucket]()
+![Index Bucket](https://github.com/lovedeepsh/AWS/blob/master/AWS-day6-images/INDEX-BUCKET.png)
+
+- Tried to run the lovedeep-opstree.tk bucket URL
+
+![Index Bucket running](https://github.com/lovedeepsh/AWS/blob/master/AWS-day6-images/bucket-index-open.png)
 
 - Redirected www.lovedeep-opstree.tk to lovedeep-opstree.tk
 
-![Redirected]()
+![Redirected](https://github.com/lovedeepsh/AWS/blob/master/AWS-day6-images/redirect.png)
 
 - www.lovedeep-opstree.tk running
-![www.lovedeep-opstree.tk running]()
+
+![www.lovedeep-opstree.tk running](https://github.com/lovedeepsh/AWS/blob/master/AWS-day6-images/lovedeep-opstree-final.png)
