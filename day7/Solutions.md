@@ -25,7 +25,9 @@ Created users Anshul , Kavit and Vishwas and added them into DevOps Group with 2
 
 ![Instance Terminate Denied](https://github.com/lovedeepsh/AWS/blob/master/AWS-day7-images/Instance-Terminate-denied.png)
 
-![Instance Terminated]()
+![Instance Terminated](https://github.com/lovedeepsh/AWS/blob/master/AWS-day7-images/not-authorized-insstance-type.png)
+
+![Not Authorised Instance](https://github.com/lovedeepsh/AWS/blob/master/AWS-day7-images/Terminate-Instance.png)
 
 ![Policies](https://github.com/lovedeepsh/AWS/blob/master/AWS-day7-images/policies.png)
 
@@ -35,15 +37,18 @@ Created users Anshul , Kavit and Vishwas and added them into DevOps Group with 2
 
 2. Created a bucket in S3 and created a policy for allowing access on that bucket and inside bucket and attached that policy to an ec2 instance. Created a user and allowed access to that instance for that user.
 
-![Bucket]()
-![Bucket]()
-![Bucket]()
-![Bucket]()
-![Bucket]()
+![Bucket](https://github.com/lovedeepsh/AWS/blob/master/AWS-day7-images/buckets.png)
+![Bucket](https://github.com/lovedeepsh/AWS/blob/master/AWS-day7-images/bucket-role-json.png)
+![Bucket](https://github.com/lovedeepsh/AWS/blob/master/AWS-day7-images/bucket-role-policy-visual-editor.png)
+![Bucket](https://github.com/lovedeepsh/AWS/blob/master/AWS-day7-images/access-denied-bucket.png)
+![Bucket](https://github.com/lovedeepsh/AWS/blob/master/AWS-day7-images/access-done.png)
 
 3. Created a user kushgra and attached a policy to it allowing all lambda access and created a role for lambda service to access RDS.
 
-![lambda]()
-![lambda]()
-![lambda]()
-![lambda]()
+![lambda](https://github.com/lovedeepsh/AWS/blob/master/AWS-day7-images/khushagra.png)
+![lambda](https://github.com/lovedeepsh/AWS/blob/master/AWS-day7-images/khushagra-lambda.png)
+![lambda](https://github.com/lovedeepsh/AWS/blob/master/AWS-day7-images/lambdarole.png)
+![lambda](https://github.com/lovedeepsh/AWS/blob/master/AWS-day7-images/kushgra-ec2-denied.png)
+![lambda](https://github.com/lovedeepsh/AWS/blob/master/AWS-day7-images/kushgra-lambda-access.png)
+![lambda](https://github.com/lovedeepsh/AWS/blob/master/AWS-day7-images/kushgra-RDS-allowed.png)
+
