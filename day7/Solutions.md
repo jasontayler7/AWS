@@ -17,21 +17,43 @@ Created the whole scenario in 3 steps :-
 
 Created users Anshul , Kavit and Vishwas and added them into DevOps Group with 2 policies i.e. allowed policy for t2.micro and m*.* and denied policy for m*.* (Termination)
 
+- Created an IAM user named Anshul
+
 ![User](https://github.com/lovedeepsh/AWS/blob/master/AWS-day7-images/IAM-USER1234.png)
+
+- Created an Allowed INLINE policy to allow the EC2 Instance Type
+
+VISUAL EDITOR
 
 ![allowed policy](https://github.com/lovedeepsh/AWS/blob/master/AWS-day7-images/allowed-policy-VisualEditor.png)
 
+JSON FILE
+
 ![allowed policy](https://github.com/lovedeepsh/AWS/blob/master/AWS-day7-images/allowed-policy-json.png)
+
+- Created an Denied INLINE policy to allow the EC2 Instance Type
+
+VISUAL EDITOR
 
 ![denied policy](https://github.com/lovedeepsh/AWS/blob/master/AWS-day7-images/Denied-Policy-VisualEditor.png)
 
+JSON FILE
+
 ![denied policy](https://github.com/lovedeepsh/AWS/blob/master/AWS-day7-images/Denied-policy-json.png)
+
+- Verified by Creating and then Terminating an " m " family instance through Anshul user login
 
 ![Instance Terminate Denied](https://github.com/lovedeepsh/AWS/blob/master/AWS-day7-images/Instance-Terminate-denied.png)
 
+
+
 ![Instance Terminated](https://github.com/lovedeepsh/AWS/blob/master/AWS-day7-images/not-authorized-insstance-type.png)
 
+
+
 ![Not Authorised Instance](https://github.com/lovedeepsh/AWS/blob/master/AWS-day7-images/Terminate-Instance.png)
+
+- These are the Policies created by me
 
 ![Policies](https://github.com/lovedeepsh/AWS/blob/master/AWS-day7-images/policies.png)
 
@@ -43,27 +65,51 @@ Created users Anshul , Kavit and Vishwas and added them into DevOps Group with 2
 
 Created a user and allowed access to that instance for that user.
 
+- Buckets which were used
+
 ![Bucket](https://github.com/lovedeepsh/AWS/blob/master/AWS-day7-images/buckets.png)
+
+- Created a role for lovedeep-opstree.tk bucket only and not for the other one
+
+JSON FILE
 
 ![Bucket](https://github.com/lovedeepsh/AWS/blob/master/AWS-day7-images/bucket-role-json.png)
 
+VISUAL EDITOR
+
 ![Bucket](https://github.com/lovedeepsh/AWS/blob/master/AWS-day7-images/bucket-role-policy-visual-editor.png)
 
+- Verified through cli and pushing some data in the other bucket in which the policy was not attached
+
 ![Bucket](https://github.com/lovedeepsh/AWS/blob/master/AWS-day7-images/access-denied-bucket.png)
+
+- Verified through cli and pushing some data in the bucket in which the policy was attached
 
 ![Bucket](https://github.com/lovedeepsh/AWS/blob/master/AWS-day7-images/access-done.png)
 
 3. Created a user kushgra and attached a policy to it allowing all lambda access and created a role for lambda service to access RDS.
 
+- Created a User named kushgra
+
 ![lambda](https://github.com/lovedeepsh/AWS/blob/master/AWS-day7-images/khushagra.png)
+
+- Attached full lambda access policy to that user
 
 ![lambda](https://github.com/lovedeepsh/AWS/blob/master/AWS-day7-images/khushagra-lambda.png)
 
+- Created a role for lambda service to RDS service access
+
 ![lambda](https://github.com/lovedeepsh/AWS/blob/master/AWS-day7-images/lambdarole.png)
+
+- Verified through kushgra login that EC2 and other services were not allowed except LAMBDA because only that policy was attached to it
 
 ![lambda](https://github.com/lovedeepsh/AWS/blob/master/AWS-day7-images/kushgra-ec2-denied.png)
 
+- Verified the Lambda access for the kushgra user and created a lambda function
+
 ![lambda](https://github.com/lovedeepsh/AWS/blob/master/AWS-day7-images/kushgra-lambda-access.png)
+
+- Verified that RDS service was there or not
 
 ![lambda](https://github.com/lovedeepsh/AWS/blob/master/AWS-day7-images/kushgra-RDS-allowed.png)
 
