@@ -1,4 +1,4 @@
-DAY 3 AWS
+DAY 7 AWS
 
 Assignment 1
 

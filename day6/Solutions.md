@@ -1,4 +1,4 @@
-DAY 3 AWS
+DAY 6 AWS
 
 Assignment 1
 Buy a domain from Freenom as yourname.opstree.com 
